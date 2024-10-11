@@ -1,0 +1,11 @@
+framework module PinsKit {
+  umbrella header "PinsKit.h"
+  export *
+
+  module * { export * }
+}
+
+module PinsKit.Swift {
+  header "PinsKit-Swift.h"
+  requires objc
+}

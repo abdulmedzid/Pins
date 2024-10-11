@@ -1,0 +1,2172 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FillPin",
+        "printedName": "FillPin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fill",
+            "printedName": "fill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.FillPin.Type) -> PinsKit.FillPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FillPin",
+                    "printedName": "PinsKit.FillPin",
+                    "usr": "s:7PinsKit7FillPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.FillPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FillPin",
+                        "printedName": "PinsKit.FillPin",
+                        "usr": "s:7PinsKit7FillPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit7FillPinO4fillyA2CmF",
+            "mangledName": "$s7PinsKit7FillPinO4fillyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "constraintAttributes",
+            "printedName": "constraintAttributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attribute",
+                    "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                    "usr": "c:@E@NSLayoutAttribute"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit7FillPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "mangledName": "$s7PinsKit7FillPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Attribute",
+                        "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                        "usr": "c:@E@NSLayoutAttribute"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit7FillPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "mangledName": "$s7PinsKit7FillPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "moduleName": "PinsKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FillPin",
+                "printedName": "PinsKit.FillPin",
+                "usr": "s:7PinsKit7FillPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FillPin",
+                "printedName": "PinsKit.FillPin",
+                "usr": "s:7PinsKit7FillPinO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit7FillPinO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7PinsKit7FillPinO2eeoiySbAC_ACtFZ",
+            "moduleName": "PinsKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit7FillPinO9hashValueSivp",
+            "mangledName": "$s7PinsKit7FillPinO9hashValueSivp",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit7FillPinO9hashValueSivg",
+                "mangledName": "$s7PinsKit7FillPinO9hashValueSivg",
+                "moduleName": "PinsKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit7FillPinO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7PinsKit7FillPinO4hash4intoys6HasherVz_tF",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PinsKit7FillPinO",
+        "mangledName": "$s7PinsKit7FillPinO",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Pin",
+            "printedName": "Pin",
+            "usr": "s:7PinsKit3PinP",
+            "mangledName": "$s7PinsKit3PinP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Pin",
+        "printedName": "Pin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "constraintAttributes",
+            "printedName": "constraintAttributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attribute",
+                    "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                    "usr": "c:@E@NSLayoutAttribute"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit3PinP20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "mangledName": "$s7PinsKit3PinP20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "moduleName": "PinsKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Attribute",
+                        "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                        "usr": "c:@E@NSLayoutAttribute"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit3PinP20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "mangledName": "$s7PinsKit3PinP20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "moduleName": "PinsKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : PinsKit.Pin>",
+                "sugared_genericSig": "<Self where Self : PinsKit.Pin>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7PinsKit3PinP",
+        "mangledName": "$s7PinsKit3PinP",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XAxisPin",
+        "printedName": "XAxisPin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leading",
+            "printedName": "leading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XAxisPin.Type) -> PinsKit.XAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XAxisPin",
+                    "printedName": "PinsKit.XAxisPin",
+                    "usr": "s:7PinsKit8XAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPin",
+                        "printedName": "PinsKit.XAxisPin",
+                        "usr": "s:7PinsKit8XAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit8XAxisPinO7leadingyA2CmF",
+            "mangledName": "$s7PinsKit8XAxisPinO7leadingyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "trailing",
+            "printedName": "trailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XAxisPin.Type) -> PinsKit.XAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XAxisPin",
+                    "printedName": "PinsKit.XAxisPin",
+                    "usr": "s:7PinsKit8XAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPin",
+                        "printedName": "PinsKit.XAxisPin",
+                        "usr": "s:7PinsKit8XAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit8XAxisPinO8trailingyA2CmF",
+            "mangledName": "$s7PinsKit8XAxisPinO8trailingyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "centerX",
+            "printedName": "centerX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XAxisPin.Type) -> PinsKit.XAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XAxisPin",
+                    "printedName": "PinsKit.XAxisPin",
+                    "usr": "s:7PinsKit8XAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPin",
+                        "printedName": "PinsKit.XAxisPin",
+                        "usr": "s:7PinsKit8XAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit8XAxisPinO7centerXyA2CmF",
+            "mangledName": "$s7PinsKit8XAxisPinO7centerXyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "constraintAttributes",
+            "printedName": "constraintAttributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attribute",
+                    "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                    "usr": "c:@E@NSLayoutAttribute"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit8XAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "mangledName": "$s7PinsKit8XAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Attribute",
+                        "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                        "usr": "c:@E@NSLayoutAttribute"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit8XAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "mangledName": "$s7PinsKit8XAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "moduleName": "PinsKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XAxisPin",
+                "printedName": "PinsKit.XAxisPin",
+                "usr": "s:7PinsKit8XAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XAxisPin",
+                "printedName": "PinsKit.XAxisPin",
+                "usr": "s:7PinsKit8XAxisPinO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit8XAxisPinO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7PinsKit8XAxisPinO2eeoiySbAC_ACtFZ",
+            "moduleName": "PinsKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit8XAxisPinO9hashValueSivp",
+            "mangledName": "$s7PinsKit8XAxisPinO9hashValueSivp",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit8XAxisPinO9hashValueSivg",
+                "mangledName": "$s7PinsKit8XAxisPinO9hashValueSivg",
+                "moduleName": "PinsKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit8XAxisPinO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7PinsKit8XAxisPinO4hash4intoys6HasherVz_tF",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PinsKit8XAxisPinO",
+        "mangledName": "$s7PinsKit8XAxisPinO",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Pin",
+            "printedName": "Pin",
+            "usr": "s:7PinsKit3PinP",
+            "mangledName": "$s7PinsKit3PinP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DimensionPin",
+        "printedName": "DimensionPin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.DimensionPin.Type) -> PinsKit.DimensionPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DimensionPin",
+                    "printedName": "PinsKit.DimensionPin",
+                    "usr": "s:7PinsKit12DimensionPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.DimensionPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DimensionPin",
+                        "printedName": "PinsKit.DimensionPin",
+                        "usr": "s:7PinsKit12DimensionPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit12DimensionPinO5widthyA2CmF",
+            "mangledName": "$s7PinsKit12DimensionPinO5widthyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.DimensionPin.Type) -> PinsKit.DimensionPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DimensionPin",
+                    "printedName": "PinsKit.DimensionPin",
+                    "usr": "s:7PinsKit12DimensionPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.DimensionPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DimensionPin",
+                        "printedName": "PinsKit.DimensionPin",
+                        "usr": "s:7PinsKit12DimensionPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit12DimensionPinO6heightyA2CmF",
+            "mangledName": "$s7PinsKit12DimensionPinO6heightyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "widthHeight",
+            "printedName": "widthHeight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.DimensionPin.Type) -> PinsKit.DimensionPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DimensionPin",
+                    "printedName": "PinsKit.DimensionPin",
+                    "usr": "s:7PinsKit12DimensionPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.DimensionPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DimensionPin",
+                        "printedName": "PinsKit.DimensionPin",
+                        "usr": "s:7PinsKit12DimensionPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit12DimensionPinO11widthHeightyA2CmF",
+            "mangledName": "$s7PinsKit12DimensionPinO11widthHeightyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DimensionPin",
+                "printedName": "PinsKit.DimensionPin",
+                "usr": "s:7PinsKit12DimensionPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DimensionPin",
+                "printedName": "PinsKit.DimensionPin",
+                "usr": "s:7PinsKit12DimensionPinO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit12DimensionPinO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7PinsKit12DimensionPinO2eeoiySbAC_ACtFZ",
+            "moduleName": "PinsKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit12DimensionPinO9hashValueSivp",
+            "mangledName": "$s7PinsKit12DimensionPinO9hashValueSivp",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit12DimensionPinO9hashValueSivg",
+                "mangledName": "$s7PinsKit12DimensionPinO9hashValueSivg",
+                "moduleName": "PinsKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit12DimensionPinO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7PinsKit12DimensionPinO4hash4intoys6HasherVz_tF",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PinsKit12DimensionPinO",
+        "mangledName": "$s7PinsKit12DimensionPinO",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Constraints",
+        "printedName": "Constraints",
+        "declKind": "Class",
+        "usr": "s:7PinsKit11ConstraintsC",
+        "mangledName": "$s7PinsKit11ConstraintsC",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YAxisPin",
+        "printedName": "YAxisPin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.YAxisPin.Type) -> PinsKit.YAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YAxisPin",
+                    "printedName": "PinsKit.YAxisPin",
+                    "usr": "s:7PinsKit8YAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.YAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPin",
+                        "printedName": "PinsKit.YAxisPin",
+                        "usr": "s:7PinsKit8YAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit8YAxisPinO3topyA2CmF",
+            "mangledName": "$s7PinsKit8YAxisPinO3topyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.YAxisPin.Type) -> PinsKit.YAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YAxisPin",
+                    "printedName": "PinsKit.YAxisPin",
+                    "usr": "s:7PinsKit8YAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.YAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPin",
+                        "printedName": "PinsKit.YAxisPin",
+                        "usr": "s:7PinsKit8YAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit8YAxisPinO6bottomyA2CmF",
+            "mangledName": "$s7PinsKit8YAxisPinO6bottomyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "centerY",
+            "printedName": "centerY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.YAxisPin.Type) -> PinsKit.YAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YAxisPin",
+                    "printedName": "PinsKit.YAxisPin",
+                    "usr": "s:7PinsKit8YAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.YAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPin",
+                        "printedName": "PinsKit.YAxisPin",
+                        "usr": "s:7PinsKit8YAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit8YAxisPinO7centerYyA2CmF",
+            "mangledName": "$s7PinsKit8YAxisPinO7centerYyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "constraintAttributes",
+            "printedName": "constraintAttributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attribute",
+                    "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                    "usr": "c:@E@NSLayoutAttribute"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit8YAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "mangledName": "$s7PinsKit8YAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Attribute",
+                        "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                        "usr": "c:@E@NSLayoutAttribute"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit8YAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "mangledName": "$s7PinsKit8YAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "moduleName": "PinsKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YAxisPin",
+                "printedName": "PinsKit.YAxisPin",
+                "usr": "s:7PinsKit8YAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YAxisPin",
+                "printedName": "PinsKit.YAxisPin",
+                "usr": "s:7PinsKit8YAxisPinO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit8YAxisPinO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7PinsKit8YAxisPinO2eeoiySbAC_ACtFZ",
+            "moduleName": "PinsKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit8YAxisPinO9hashValueSivp",
+            "mangledName": "$s7PinsKit8YAxisPinO9hashValueSivp",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit8YAxisPinO9hashValueSivg",
+                "mangledName": "$s7PinsKit8YAxisPinO9hashValueSivg",
+                "moduleName": "PinsKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit8YAxisPinO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7PinsKit8YAxisPinO4hash4intoys6HasherVz_tF",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PinsKit8YAxisPinO",
+        "mangledName": "$s7PinsKit8YAxisPinO",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Pin",
+            "printedName": "Pin",
+            "usr": "s:7PinsKit3PinP",
+            "mangledName": "$s7PinsKit3PinP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.NSLayoutConstraint",
+        "printedName": "UIKit.NSLayoutConstraint",
+        "declKind": "Import",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XYAxisPin",
+        "printedName": "XYAxisPin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "topLeading",
+            "printedName": "topLeading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XYAxisPin.Type) -> PinsKit.XYAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XYAxisPin",
+                    "printedName": "PinsKit.XYAxisPin",
+                    "usr": "s:7PinsKit9XYAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XYAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XYAxisPin",
+                        "printedName": "PinsKit.XYAxisPin",
+                        "usr": "s:7PinsKit9XYAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit9XYAxisPinO10topLeadingyA2CmF",
+            "mangledName": "$s7PinsKit9XYAxisPinO10topLeadingyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "topTrailing",
+            "printedName": "topTrailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XYAxisPin.Type) -> PinsKit.XYAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XYAxisPin",
+                    "printedName": "PinsKit.XYAxisPin",
+                    "usr": "s:7PinsKit9XYAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XYAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XYAxisPin",
+                        "printedName": "PinsKit.XYAxisPin",
+                        "usr": "s:7PinsKit9XYAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit9XYAxisPinO11topTrailingyA2CmF",
+            "mangledName": "$s7PinsKit9XYAxisPinO11topTrailingyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomLeading",
+            "printedName": "bottomLeading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XYAxisPin.Type) -> PinsKit.XYAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XYAxisPin",
+                    "printedName": "PinsKit.XYAxisPin",
+                    "usr": "s:7PinsKit9XYAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XYAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XYAxisPin",
+                        "printedName": "PinsKit.XYAxisPin",
+                        "usr": "s:7PinsKit9XYAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit9XYAxisPinO13bottomLeadingyA2CmF",
+            "mangledName": "$s7PinsKit9XYAxisPinO13bottomLeadingyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomTrailing",
+            "printedName": "bottomTrailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XYAxisPin.Type) -> PinsKit.XYAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XYAxisPin",
+                    "printedName": "PinsKit.XYAxisPin",
+                    "usr": "s:7PinsKit9XYAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XYAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XYAxisPin",
+                        "printedName": "PinsKit.XYAxisPin",
+                        "usr": "s:7PinsKit9XYAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit9XYAxisPinO14bottomTrailingyA2CmF",
+            "mangledName": "$s7PinsKit9XYAxisPinO14bottomTrailingyA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PinsKit.XYAxisPin.Type) -> PinsKit.XYAxisPin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XYAxisPin",
+                    "printedName": "PinsKit.XYAxisPin",
+                    "usr": "s:7PinsKit9XYAxisPinO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PinsKit.XYAxisPin.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XYAxisPin",
+                        "printedName": "PinsKit.XYAxisPin",
+                        "usr": "s:7PinsKit9XYAxisPinO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7PinsKit9XYAxisPinO6centeryA2CmF",
+            "mangledName": "$s7PinsKit9XYAxisPinO6centeryA2CmF",
+            "moduleName": "PinsKit"
+          },
+          {
+            "kind": "Var",
+            "name": "constraintAttributes",
+            "printedName": "constraintAttributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Attribute",
+                    "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                    "usr": "c:@E@NSLayoutAttribute"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit9XYAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "mangledName": "$s7PinsKit9XYAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvp",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.NSLayoutConstraint.Attribute]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Attribute",
+                        "printedName": "UIKit.NSLayoutConstraint.Attribute",
+                        "usr": "c:@E@NSLayoutAttribute"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit9XYAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "mangledName": "$s7PinsKit9XYAxisPinO20constraintAttributesSaySo17NSLayoutAttributeVGvg",
+                "moduleName": "PinsKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XYAxisPin",
+                "printedName": "PinsKit.XYAxisPin",
+                "usr": "s:7PinsKit9XYAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XYAxisPin",
+                "printedName": "PinsKit.XYAxisPin",
+                "usr": "s:7PinsKit9XYAxisPinO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit9XYAxisPinO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7PinsKit9XYAxisPinO2eeoiySbAC_ACtFZ",
+            "moduleName": "PinsKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PinsKit9XYAxisPinO9hashValueSivp",
+            "mangledName": "$s7PinsKit9XYAxisPinO9hashValueSivp",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PinsKit9XYAxisPinO9hashValueSivg",
+                "mangledName": "$s7PinsKit9XYAxisPinO9hashValueSivg",
+                "moduleName": "PinsKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PinsKit9XYAxisPinO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7PinsKit9XYAxisPinO4hash4intoys6HasherVz_tF",
+            "moduleName": "PinsKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7PinsKit9XYAxisPinO",
+        "mangledName": "$s7PinsKit9XYAxisPinO",
+        "moduleName": "PinsKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Pin",
+            "printedName": "Pin",
+            "usr": "s:7PinsKit3PinP",
+            "mangledName": "$s7PinsKit3PinP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pin",
+            "printedName": "pin(_:to:_:padding:multiplier:activate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constraints",
+                "printedName": "PinsKit.Constraints",
+                "usr": "s:7PinsKit11ConstraintsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XAxisPin",
+                "printedName": "PinsKit.XAxisPin",
+                "usr": "s:7PinsKit8XAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XAxisPin",
+                "printedName": "PinsKit.XAxisPin",
+                "usr": "s:7PinsKit8XAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC8XAxisPinO_yXlALSo12UIEdgeInsetsV14CoreFoundation7CGFloatVSbtF",
+            "mangledName": "$sSo6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC8XAxisPinO_yXlALSo12UIEdgeInsetsV12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pin",
+            "printedName": "pin(_:to:_:padding:multiplier:activate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constraints",
+                "printedName": "PinsKit.Constraints",
+                "usr": "s:7PinsKit11ConstraintsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YAxisPin",
+                "printedName": "PinsKit.YAxisPin",
+                "usr": "s:7PinsKit8YAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YAxisPin",
+                "printedName": "PinsKit.YAxisPin",
+                "usr": "s:7PinsKit8YAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC8YAxisPinO_yXlALSo12UIEdgeInsetsV14CoreFoundation7CGFloatVSbtF",
+            "mangledName": "$sSo6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC8YAxisPinO_yXlALSo12UIEdgeInsetsV12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pin",
+            "printedName": "pin(_:to:_:padding:multiplier:activate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constraints",
+                "printedName": "PinsKit.Constraints",
+                "usr": "s:7PinsKit11ConstraintsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XYAxisPin",
+                "printedName": "PinsKit.XYAxisPin",
+                "usr": "s:7PinsKit9XYAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XYAxisPin",
+                "printedName": "PinsKit.XYAxisPin",
+                "usr": "s:7PinsKit9XYAxisPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC9XYAxisPinO_yXlALSo12UIEdgeInsetsV14CoreFoundation7CGFloatVSbtF",
+            "mangledName": "$sSo6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC9XYAxisPinO_yXlALSo12UIEdgeInsetsV12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pin",
+            "printedName": "pin(_:to:_:padding:multiplier:activate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constraints",
+                "printedName": "PinsKit.Constraints",
+                "usr": "s:7PinsKit11ConstraintsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FillPin",
+                "printedName": "PinsKit.FillPin",
+                "usr": "s:7PinsKit7FillPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FillPin",
+                "printedName": "PinsKit.FillPin",
+                "usr": "s:7PinsKit7FillPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC7FillPinO_yXlALSo12UIEdgeInsetsV14CoreFoundation7CGFloatVSbtF",
+            "mangledName": "$sSo6UIViewC7PinsKitE3pin_2to_7padding10multiplier8activateAC11ConstraintsCAC7FillPinO_yXlALSo12UIEdgeInsetsV12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pin",
+            "printedName": "pin(_:constant:multiplier:activate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constraints",
+                "printedName": "PinsKit.Constraints",
+                "usr": "s:7PinsKit11ConstraintsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DimensionPin",
+                "printedName": "PinsKit.DimensionPin",
+                "usr": "s:7PinsKit12DimensionPinO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC7PinsKitE3pin_8constant10multiplier8activateAC11ConstraintsCAC12DimensionPinO_14CoreFoundation7CGFloatVANSbtF",
+            "mangledName": "$sSo6UIViewC7PinsKitE3pin_8constant10multiplier8activateAC11ConstraintsCAC12DimensionPinO_12CoreGraphics7CGFloatVANSbtF",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fill",
+            "printedName": "fill(view:edges:activate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constraints",
+                "printedName": "PinsKit.Constraints",
+                "usr": "s:7PinsKit11ConstraintsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC7PinsKitE4fill4view5edges8activateAC11ConstraintsCAB_So12UIEdgeInsetsVSbtF",
+            "mangledName": "$sSo6UIViewC7PinsKitE4fill4view5edges8activateAC11ConstraintsCAB_So12UIEdgeInsetsVSbtF",
+            "moduleName": "PinsKit",
+            "declAttributes": [
+              "Custom",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 342,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 372,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 701,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1061,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1091,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1417,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1447,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1784,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1814,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1894,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 2782,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2804,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/UIView+PinExtension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Extensions\/NSLayoutConstraint.Attribute+UIEdgeInsetsExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 563,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/abdulmedzid.pehlic\/Documents\/dev\/PinsKit\/PinsKit\/Sources\/Constraints\/Constraints.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2542,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

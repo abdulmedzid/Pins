@@ -1,0 +1,103 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PinsKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import UIKit.NSLayoutConstraint
+@_exported import PinsKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FillPin : PinsKit.Pin {
+  case fill
+  public var constraintAttributes: [UIKit.NSLayoutConstraint.Attribute] {
+    get
+  }
+  public static func == (a: PinsKit.FillPin, b: PinsKit.FillPin) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol Pin {
+  var constraintAttributes: [UIKit.NSLayoutConstraint.Attribute] { get }
+}
+public enum XAxisPin : PinsKit.Pin {
+  case leading
+  case trailing
+  case centerX
+  public var constraintAttributes: [UIKit.NSLayoutConstraint.Attribute] {
+    get
+  }
+  public static func == (a: PinsKit.XAxisPin, b: PinsKit.XAxisPin) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DimensionPin {
+  case width
+  case height
+  case widthHeight
+  public static func == (a: PinsKit.DimensionPin, b: PinsKit.DimensionPin) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIView {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func pin(_ pinSelf: PinsKit.XAxisPin, to view: Swift.AnyObject, _ pinTo: PinsKit.XAxisPin, padding: UIKit.UIEdgeInsets = .zero, multiplier: CoreFoundation.CGFloat = 1.0, activate: Swift.Bool = true) -> PinsKit.Constraints
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func pin(_ pinSelf: PinsKit.YAxisPin, to view: Swift.AnyObject, _ pinTo: PinsKit.YAxisPin, padding: UIKit.UIEdgeInsets = .zero, multiplier: CoreFoundation.CGFloat = 1.0, activate: Swift.Bool = true) -> PinsKit.Constraints
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func pin(_ pinSelf: PinsKit.XYAxisPin, to view: Swift.AnyObject, _ pinTo: PinsKit.XYAxisPin, padding: UIKit.UIEdgeInsets = .zero, multiplier: CoreFoundation.CGFloat = 1.0, activate: Swift.Bool = true) -> PinsKit.Constraints
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func pin(_ pinSelf: PinsKit.FillPin, to view: Swift.AnyObject, _ pinTo: PinsKit.FillPin, padding: UIKit.UIEdgeInsets = .zero, multiplier: CoreFoundation.CGFloat = 1.0, activate: Swift.Bool = true) -> PinsKit.Constraints
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func pin(_ pin: PinsKit.DimensionPin, constant: CoreFoundation.CGFloat, multiplier: CoreFoundation.CGFloat = 1.0, activate: Swift.Bool = true) -> PinsKit.Constraints
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func fill(view: UIKit.UIView, edges: UIKit.UIEdgeInsets = .zero, activate: Swift.Bool = true) -> PinsKit.Constraints
+}
+@_hasMissingDesignatedInitializers public class Constraints {
+  @objc deinit
+}
+public enum YAxisPin : PinsKit.Pin {
+  case top
+  case bottom
+  case centerY
+  public var constraintAttributes: [UIKit.NSLayoutConstraint.Attribute] {
+    get
+  }
+  public static func == (a: PinsKit.YAxisPin, b: PinsKit.YAxisPin) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum XYAxisPin : PinsKit.Pin {
+  case topLeading
+  case topTrailing
+  case bottomLeading
+  case bottomTrailing
+  case center
+  public var constraintAttributes: [UIKit.NSLayoutConstraint.Attribute] {
+    get
+  }
+  public static func == (a: PinsKit.XYAxisPin, b: PinsKit.XYAxisPin) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension PinsKit.FillPin : Swift.Equatable {}
+extension PinsKit.FillPin : Swift.Hashable {}
+extension PinsKit.XAxisPin : Swift.Equatable {}
+extension PinsKit.XAxisPin : Swift.Hashable {}
+extension PinsKit.DimensionPin : Swift.Equatable {}
+extension PinsKit.DimensionPin : Swift.Hashable {}
+extension PinsKit.YAxisPin : Swift.Equatable {}
+extension PinsKit.YAxisPin : Swift.Hashable {}
+extension PinsKit.XYAxisPin : Swift.Equatable {}
+extension PinsKit.XYAxisPin : Swift.Hashable {}
